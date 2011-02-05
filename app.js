@@ -19,14 +19,18 @@ app.configure(function() {
 
 app.get('/', function(req, res) {
 	res.render('index.jade', {
-        title: "test"
+	    locals: {
+            title: "test"
+        }
 	});
 });
 
 app.get('/test', function(req, res) {
     req.session.name = 'alfred';
     res.render('index.jade', {
-        title: "test"
+        locals: {
+            title: "test"
+        }
     });
 });
 
