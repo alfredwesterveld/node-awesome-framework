@@ -4,7 +4,7 @@
     'name': 'Alfred Westerveld',
     'email': 'alfredwesterveld@gmail.com'}],
     "dependencies": {
-        "connect"       : "=0.5.8",
+        "connect"       : "=0.5.7",
         "express"       : "=1.0.3",
 		"connect-redis" : "=0.2.3",
         "redis"         : "=0.5.2",
