@@ -1,4 +1,5 @@
 setup:
+	npm activate express@1.0.3
 	npm activate connect@0.5.7
 
 start-redis:
