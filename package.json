@@ -1,24 +1,30 @@
-{ name: 'awesome',
-  description: 'awesome framework',
-  maintainers: [{ 
-    'name': 'Alfred Westerveld',
-    'email': 'alfredwesterveld@gmail.com'}],
-    "dependencies": {
-        "connect"       : "=0.5.7",
-        "express"       : "=1.0.3",
-		"connect-redis" : "=0.2.3",
-        "redis"         : "=0.5.2",
-        "hiredis"       : "=0.1.6",
-		"async"         : "=0.1.8",
-		"nodeunit"      : "=0.5.0",
-		"zombie"        : "=0.8.12",
-		"should"        : "=0.0.4"
-    },
-  version: '0.0.1',
-  'directories' : {
-    'lib' : './lib' },
-  'main' : './lib/index.js',
-  "engines" : { 
-    "node" : "= 0.3.7",
-  }
+{
+  "name": "awesome",
+  "description": "awesome framework",
+  "maintainers": [
+    "Alfred Westerveld <alfredwesterveld@gmail.com>"
+  ],
+  "dependencies": {
+    "connect": "=0.5.7",
+    "express": "=1.0.3",
+    "connect-redis": "=0.2.3",
+    "redis": "=0.5.2",
+    "hiredis": "=0.1.6",
+    "async": "=0.1.8",
+    "nodeunit": "=0.5.0",
+    "zombie": "=0.8.12",
+    "should": "=0.0.4"
+  },
+  "version": "0.0.2",
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib/index",
+  "engines": {
+    "node": "= 0.3.7"
+  },
+  "modules": {},
+  "files": [
+    ""
+  ]
 }
