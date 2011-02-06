@@ -12,9 +12,9 @@
     "async": "=0.1.8",
     "nodeunit": "=0.5.0",
     "zombie": "=0.8.12",
-    "it-is" : "=0.0.0" 
+    "it-is": "=0.0.0"
   },
-  "version": "0.0.3",
+  "version": "0.0.4",
   "directories": {
     "lib": "./lib"
   },
