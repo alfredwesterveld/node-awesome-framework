@@ -1,7 +1,7 @@
 start-redis:
 	~/database/redis-2.2.0-rc4/src/redis-server
 
-test:
+t:
 	nodeunit test/
 
 zombie:
